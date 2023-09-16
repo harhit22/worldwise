@@ -1,6 +1,7 @@
 import SideBarModule from "../components/SideBar";
 import styles from "./AppLayout.module.css"
 import Map from "../components/Map";
+import User from "../components/User";
 
 
 const AppLayout = () => {
@@ -9,6 +10,7 @@ const AppLayout = () => {
            
             <SideBarModule/>
             <Map/>
+            <User/>
             
             
         </div>
